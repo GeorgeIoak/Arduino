@@ -1,3 +1,33 @@
+Fork for Adafruit Boards
+========================
+
+This is a fork of the Arduino IDE that adds native support for Adafruit boards.
+It will only track the java7 branch.
+
+Tested OS's:
+
+  * :no_entry_sign: Linux 32bit
+
+  * :no_entry_sign: Linux 64bit
+
+  * :white_check_mark: Mac OSX Yosemite
+
+  * :no_entry_sign: Windows
+
+Tested Boards:
+
+  * :white_check_mark: Pro Trinket 5v
+
+  * :no_entry_sign: Pro Tinket 3v
+
+  * :white_check_mark: Trinket 5v
+
+  * :white_check_mark: Trinket 3v
+
+  * :white_check_mark: Flora
+
+  * :no_entry_sign: Gemma
+
 Arduino
 ========
 
@@ -18,7 +48,7 @@ http://github.com/arduino/Arduino/issues
 mailing list:
 https://groups.google.com/a/arduino.cc/forum/#!forum/developers
 
-* If you're interested in modifying or extending the Arduino software, we strongly 
+* If you're interested in modifying or extending the Arduino software, we strongly
 suggest discussing your ideas on the Developers mailing list *before* starting
 to work on them. That way you can coordinate with the Arduino Team and others,
 giving your work a higher chance of being integrated into the official release

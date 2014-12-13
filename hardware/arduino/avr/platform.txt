@@ -9,7 +9,7 @@ name=Arduino AVR Boards
 version=1.6.0
 
 # AVR compile variables
-# --------------------- 
+# ---------------------
 
 # Default "compiler.path" is correct, change only if you want to overidde the initial value
 compiler.path={runtime.ide.path}/hardware/tools/avr/bin/
@@ -82,7 +82,7 @@ tools.avrdude.config.path={runtime.ide.path}/hardware/tools/avr/etc/avrdude.conf
 
 tools.avrdude.upload.params.verbose=-v
 tools.avrdude.upload.params.quiet=-q -q
-tools.avrdude.upload.pattern="{cmd.path}" "-C{config.path}" {upload.verbose} -p{build.mcu} -c{upload.protocol} -P{serial.port} -b{upload.speed} -D "-Uflash:w:{build.path}/{build.project_name}.hex:i"
+tools.avrdude.upload.pattern="{cmd.path}" "-C{config.path}" {upload.verbose} -p{build.mcu} -c{upload.protocol} -b{upload.speed} "-Uflash:w:{build.path}/{build.project_name}.hex:i"
 
 tools.avrdude.program.params.verbose=-v
 tools.avrdude.program.params.quiet=-q -q
